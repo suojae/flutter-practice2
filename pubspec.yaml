@@ -1,0 +1,56 @@
+name: medihabit
+description: "medihabit-flutter"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Core
+  get_it: ^7.7.0
+  riverpod: ^2.6.1
+
+  # Freezed
+  freezed: ^2.5.2
+  freezed_annotation: ^2.4.3
+
+  # UI
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.2.1
+  table_calendar: ^3.1.2
+
+  # DB
+  flutter_secure_storage: ^9.2.2
+
+  # Social Login
+  sign_in_with_apple: ^6.1.1
+  kakao_flutter_sdk_user: ^1.9.5
+
+  # Utils
+  uuid: ^4.4.0
+  build_runner: ^2.4.11
+  json_serializable: ^6.8.0
+  flutter_dotenv: ^5.1.0
+
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+  json_annotation: ^4.9.0
+  mockito: ^5.4.4
+  dio: ^5.7.0
+  rxdart: ^0.28.0
+  flutter_riverpod: ^2.6.1
+
+
+flutter:
+  uses-material-design: true
+
+#  assets:
+#    - images/
+#    - .env
