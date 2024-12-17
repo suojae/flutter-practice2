@@ -1,8 +1,9 @@
-import 'package:fire_walker/sign_in_page/sign_in_viemodel.dart';
+import 'package:fire_walker/presentation/sign_in_page/sign_in_viemodel.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import '../design/cutom_rive.dart';
+import '../../design/cutom_rive.dart';
+
 
 final class SignInView extends ConsumerWidget {
   const SignInView({super.key});
